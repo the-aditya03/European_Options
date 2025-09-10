@@ -1,5 +1,4 @@
 ## Overview
-
 This repository contains a comprehensive analysis comparing two foundational models for pricing European call and put options:
 
 1. **Binomial Tree Model** (discrete‐time, multi‐step framework)
@@ -14,10 +13,10 @@ Using historical market data for major ETFs (SPY, QQQ, DIA), the project:
 * Interprets model performance in light of market characteristics
   
 **Citation:** Hull, J. (2009). Options, futures and other derivatives. Pearson Education.
+
 ---
 
 ## Assumptions
-
 1. **No Arbitrage**: Markets do not allow riskless profit opportunities.
 2. **Risk‑Neutral Valuation**: All investors are indifferent to risk; expected returns equal the risk‑free rate.
 
@@ -32,7 +31,6 @@ Using historical market data for major ETFs (SPY, QQQ, DIA), the project:
 ---
 
 ## Features
-
 This project provides a comprehensive analysis of European option pricing using both **Binomial Tree** and **Black-Scholes** models. Key features include:
 
 - **Option Pricing Models**
@@ -82,9 +80,10 @@ This project provides a comprehensive analysis of European option pricing using 
 - **Interactive & Modular**
   - Functions are **modular**, allowing easy experimentation with different parameters, stocks, and option types.
   - Ready for **further extensions** like American options or dividend-adjusted pricing.
+ 
+---
 
 ## Installation
-
 1. **Clone the repository**
 
    ```bash
@@ -105,7 +104,6 @@ This project provides a comprehensive analysis of European option pricing using 
 ---
 
 ## Methodology
-
 1. **Parameter Estimation**
 
    * **Volatility (σ)**: Annualized standard deviation of log returns
@@ -125,7 +123,6 @@ This project provides a comprehensive analysis of European option pricing using 
 ---
 
 ## Key Findings
-
 * **Short‑dated options (< 6 months)**: Both models produce comparable prices (errors < \$2).
 * **Longer maturities (> 2 years)**:
 
@@ -139,7 +136,6 @@ This project provides a comprehensive analysis of European option pricing using 
 ---
 
 ## Dependencies
-
 * Python ≥ 3.8
 * numpy
 * pandas
@@ -152,11 +148,9 @@ This project provides a comprehensive analysis of European option pricing using 
 ---
 
 ## Contributing
-
 Contributions and suggestions are welcome. Please fork the repository and open a pull request with a clear description of your changes.
 
 ---
 
 ## License
-
 This project is released under the [License](LICENSE).
